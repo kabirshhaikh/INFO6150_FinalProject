@@ -1,0 +1,26 @@
+.detailsForm{
+   
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.mainContainerForm{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.dfItem{
+    padding:0.3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dfItem>label{  
+    margin-left: 200px;
+}
+
+.dfItem>input{
+    margin-right: 100px;
+    width: 33%;
+}

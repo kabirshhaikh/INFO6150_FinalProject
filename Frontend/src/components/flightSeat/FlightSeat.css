@@ -1,0 +1,22 @@
+.seatreservation
+{
+    text-align:center;
+}
+
+.Title
+{
+    padding :2em;
+}
+
+.columnwise
+{
+    display: inline;
+    align-items: center;
+    padding: 1em;
+}
+
+.rowwise
+{
+    padding: .5em;
+}
+
