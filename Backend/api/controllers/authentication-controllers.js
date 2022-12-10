@@ -9,8 +9,8 @@ import mail from 'nodemailer'
 const transporter = mail.createTransport({
     service:'hotmail',
     auth:{
-        user:"m",
-        pass:"@19"
+        user:"zoyohotels123@outlook.com",
+        pass:"Mohan@123"
     }
 });
 
@@ -35,7 +35,7 @@ export const register = async (req,res , next)=>{
         await newUser.save();
 
         const options = {
-            from:"travelpedias@outlook.com",
+            from:"zoyohotels123@outlook.com",
             to: req.body.email ,
             subject:"Thank You for Registration",
             html:`
@@ -99,7 +99,7 @@ export const subscribeEmail = async (req,res,next)=>{
     const emailvalue = req.body.email;
     
     const opt = {
-        from:"travelpedias@outlook.com",
+        from:"zoyohotels123@outlook.com",
         to: emailvalue,
         subject:"Thank You for Subscribing",
         html:`  <p>Hello User</p>
